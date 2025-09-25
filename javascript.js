@@ -1,15 +1,15 @@
-function navigateTo(page) {
-  window.location.href = page; // normal navigation
+
+
+function showTab(tabName) {
+
+  document.getElementById("homeSection").style.display = "none";
+  document.getElementById("aboutSection").style.display = "none";
+  document.getElementById("televisionSection").style.display = "none";
+
+
+  document.getElementById(tabName).style.display = "block";
 }
 
-function goHome() {
-  window.location.href = "index.html";
-}
-
-function goAbout() {
-  window.location.href = "Aboutus.html";
-}
-
-function goTelevision() {
-  window.location.href = "Televisions.html";
-}
+window.onload = function() {
+  showTab("homeSection");
+};
