@@ -6,27 +6,17 @@
 </head>
 <body>
 
-<div class="topnav">
+<div class="topnav"> 
+  <img src="./images/Powericon.png" 
+       alt="Powericon" 
+       title="Go to Home page" 
+       onclick="window.location.href='index.html'"> 
 
-<img src="./images/Powericon.png" alt="Powericon" title="Go to Home page" onclick="window.location.href='index.html'"  >
-<button onclick="goHome()">Home</button>
-<button onclick="goAbout()">About Us</button>
-<button onclick="goTelevision()">Television</button>
+  <button id="homeBtn">Home</button> 
+  <button id="aboutBtn">About Us</button> 
+  <button id="tvBtn">Television</button> 
+</div> 
 
-<script>
-      function goHome() {
-    window.location.replace("index.html");
-}
-function goAbout() {
-    window.location.replace("Aboutus.html");
-}
-function goTelevision() {
-    window.location.replace("Televisons.html");
-}
-
-</script>
-
-</div>
 
   <h1>Appliances</h1>
   <h2>Televisions</h2>
@@ -43,4 +33,5 @@ function goTelevision() {
 </footer>
 
 </body>
+<script src="script.js"></script>
 </html> 
