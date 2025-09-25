@@ -6,16 +6,16 @@
 </head> 
 <body> 
 
-<div class="topnav">  
-  <img src="./images/Powericon.png"  
-       alt="Powericon"  
-       title="Go to Home page"  
-       onclick="goHome()">  
+<div class="topnav">
+  <img src="./images/Powericon.png"
+       alt="Powericon"
+       title="Go to Home page"
+       onclick="showTab('homeSection')">
 
-  <button onclick="goHome()">Home</button>  
-  <button onclick="goAbout()">About Us</button>  
-  <button onclick="goTelevision()">Television</button>  
-</div>  
+  <button onclick="showTab('homeSection')">Home</button>
+  <button onclick="showTab('aboutSection')">About Us</button>
+  <button onclick="showTab('televisionSection')">Television</button>
+</div>
 
 <h1>About Us</h1> 
 <p>Welcome to our website—where innovation meets purpose. We are a passionate team dedicated to creating smarter, more sustainable solutions for everyday life. Whether it's  
@@ -30,7 +30,6 @@ our mission is simple: to make a meaningful impact.</p>
       Github Copilot.(2025)</p>
 </footer>
 
-<!-- External JavaScript file -->
 <script src="script.js"></script>
 </body>
 </html>
